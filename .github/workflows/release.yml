@@ -1,15 +1,6 @@
 name: Release
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
-      - '**.spec.js'
-      - '.idea'
-      - '.gitignore'
-      - '.github/**'
-      - '!.github/workflows/release.yml'
+  workflow_dispatch:
 
 concurrency:
   group: release-${{ github.ref }}
