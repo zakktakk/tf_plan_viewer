@@ -25,12 +25,16 @@
     "typecheck": "npm run typecheck:main && npm run typecheck:preload && npm run typecheck:renderer"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.12.1",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.15.0",
     "cross-env": "7.0.3",
     "electron": "17.1.0",
     "electron-builder": "22.14.13",
     "electron-devtools-installer": "3.2.0",
     "eslint": "8.9.0",
+    "eslint-config-prettier": "^8.5.0",
     "happy-dom": "2.41.0",
     "nano-staged": "0.6.0",
     "playwright": "1.19.1",
@@ -40,6 +44,8 @@
     "vitest": "0.5.4"
   },
   "dependencies": {
-    "electron-updater": "4.6.5"
+    "electron-updater": "4.6.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
