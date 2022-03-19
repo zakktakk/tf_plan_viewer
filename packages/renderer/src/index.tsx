@@ -5,5 +5,5 @@ import { App } from './app'
 
 ReactDOM.render(
 	<App />,
-	document.getElementById('root')
+	document.getElementById('root') // https://ja.reactjs.org/docs/rendering-elements.html
 )
