@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './app.css'
 
 
-export const App: React.FC = () => {
+export const App = () => {
 	const [count, setCount] = useState(0)
 
 	return (
